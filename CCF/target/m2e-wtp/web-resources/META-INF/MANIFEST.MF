@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: CCF
+Implementation-Version: 1.0
+Built-By: Kuzon
+Implementation-Vendor-Id: edu.sdju
+Build-Jdk: 1.8.0_65
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
