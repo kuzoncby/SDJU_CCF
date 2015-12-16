@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Boot</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+h1 {
+	font-family: "微软雅黑";
+}
+
+#center {
+	margin: 0 auto;
+	color: red;
+	margin: 0 auto;
+}
+
+#center:HOVER {
+	color: green;
+	display: none;
+}
+</style>
+</head>
+<body>
+	<!-- 	<p th:text="${record}"></p> 
+	<table>
+		<tr>
+			<td>id</td>
+			<td>platform_id</td>
+			<td>amount</td>
+			<td>status</td>
+			<td>day</td>
+			<td>rate</td>
+			<td>sex</td>
+			<td>age</td>
+			<td>education</td>
+			<td>marriage</td>
+			<td>city</td>
+			<td>house</td>
+			<td>car</td>
+			<td>reward</td>
+			<td>profit</td>
+		</tr>
+		<tr data-th-each="record : ${record}">
+			<td data-th-text="${record.id}"></td>
+			<td data-th-text="${record.platform_id}"></td>
+			<td data-th-text="${record.amount}"></td>
+			<td data-th-text="${record.status}"></td>
+			<td data-th-text="${record.day}"></td>
+			<td data-th-text="${record.rate}"></td>
+			<td data-th-text="${record.sex}"></td>
+			<td data-th-text="${record.age}"></td>
+			<td data-th-text="${record.education}"></td>
+			<td data-th-text="${record.marriage}"></td>
+			<td data-th-text="${record.city}"></td>
+			<td data-th-text="${record.house}"></td>
+			<td data-th-text="${record.car}"></td>
+			<td data-th-text="${record.reward}"></td>
+			<td data-th-text="${record.profit}"></td>
+		</tr>
+	</table>
+-->
+	<table>
+		<tr>
+			<td>Platform</td>
+			<td>Result</td>
+		</tr>
+		<tr data-th-each="record : ${record}">
+			<td data-th-text="${record.platform}"></td>
+			<td data-th-text="${record.result}"></td>
+		</tr>
+	</table>
+</body>
+</html>
